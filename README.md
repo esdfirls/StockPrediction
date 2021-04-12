@@ -1,40 +1,38 @@
-# Forecast the value of an stock.
+# Forecast the value of an index.
 
-This Notebok aims to predict the opening price for an stock in the next day, using Ridge regression to minimize overfitting and have a good precision.
 
-## Stock selected:
-USIM5 - Usinas Siderurgicas de Minas Gerais A Pref Shs
-Revenue: 3,5 billions USD (2018)
+## Index selected:
+Ibovespa - ^BVSP -  Brazillian Index 
 
-## Problema
-Problema: Identificar se o investimento a curto prazo é valido para um determinado ativo, evitando prejuízo.
+## Problem
+Problem: Identify whether the short-term investment is valid for a given asset, avoiding losses.
 
-Lacunas: Análise fundamentalista e técnica pode não ser o suficiente para identificar uma tendência no ativo. Por tanto outras formas de identificação devem ser elaboradas.
+Gaps: Fundamental and technical analysis may not be enough to identify a trend in the asset. Therefore, other forms of identification must be elaborated.
 
-Hipóteses: Análise de preço, volume, abertura e fechamento podem ser aplicadas em um modelo para prever valores.
+Hypothesis: Price Analysis, volume, opening and closing could be applied in a model to predict future values.
 
-Objetivos: Extrair os dados a partir de uma API Financeira, analisar e aplicar machine learning com o intuito de obter valores futuros do ativo.
+Goals: Extrair os dados a partir de uma API Financeira, analisar e aplicar machine learning com o intuito de obter valores futuros do ativo.
 
-## Dados
-Dados disponíveis: Dados do Yahoo Finance em tempo real.
+## Data
+Data Available: Yahoo Finance data in real time.
 
-Licença: Acesso Livre/Disponível.
+License: Free Access, available.
 
-## Ferramentas e APIs
-Ferramentas: Python, Jupyter, DataReader
+## Tools e APIs
+Tools: Python, Jupyter, DataReader
 
 APIs: Yahoo Finance
 
-Precificação: Gratuito.
+Pricing: Free.
 
-Acesso: Livre sem autenticação.
+Access: Free without authentication.
 
-## Avaliação
-Dados de teste: Criação de um conjunto de teste 
+## Evaluation
+Test data: Creating test data, data analysis, evaluating models and using neural networks to predict values.
 
-Avaliação: Executar a solução sobre os dados de teste e apresentar as métricas de acurácia, precisão e cobertura.
+Evaluation: Run the solution on the test data and present the metrics of accuracy and comparing with real value.
 
-## Disponibilização
-Disponibilização: Github
+## Availability
+Availability: Github
 
 Endpoints: https://github.com/esdfirls/StockPrediction/blob/main/Stock%20Prediction%20BR.ipynb
