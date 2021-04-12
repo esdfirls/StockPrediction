@@ -1,4 +1,4 @@
-# StockPrediction
+# Forecast the value of an stock.
 
 This Notebok aims to predict the opening price for an stock in the next day, using Ridge regression to minimize overfitting and have a good precision.
 
